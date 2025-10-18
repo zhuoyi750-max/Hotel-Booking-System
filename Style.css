@@ -1,0 +1,123 @@
+body {
+    background-image: url("images/background.jpg");/* The image used */
+    background-color:#b2f0fb; /* Used if the image is unavailable */
+    background-position:center;/*Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the backaround image to cover the entire container */
+}
+    h1{
+        color: white;/*This is the font color */
+        text-align:center;/*This is the font position */
+        font-family: Helvetica; /* This is the font style */
+        font-weight: lighter;/* How thick the font is */
+    }
+    .Hotel_Search {
+        background-color:white;/* background color */
+        padding: 10px;/* used to create space around an element's content */
+        text-align: center;/* Aligns things to center */
+        /* Here the width, height and padding are respected,but the two copies of the element can still sit side by side. */
+        display: inline-block;/* removed padding on the sides */
+        border-radius: 10px;/* Sets the curve around the box */
+    }
+       
+    
+    .Hotel_Search label {
+        font-family: Helvetica; /* This is the font style */
+    }
+    .Hotel_Search_Input {
+            background-color: white;/* background color */
+            padding: 2px;/*2 pixels of padding */
+            border-radius: 3px;/* Sets the curve around the box */
+            border-style: solid;/* solid border */
+            border-color: rgb(212,212,212);/* color of the border */
+            color:rgb(49,152,255);/*font color */
+            border-width: 1px;/* border width is 1 pixel */
+            text-align: center;/* This is the font position */
+    }
+    
+    .Hotel_Search input[type="submit"]{
+        color:rgb(49,152,255);/* Font Color */
+        padding: 3px;/*3 pixels of padding */
+        border-radius: 3px;/* Sets the curve around the box */
+        }
+
+/* Add a white background color to the top navigation */
+.topnav{
+    background-color:#ffffff;
+    overflow: hidden;
+    border-radius: 10px;/* Sets the curve around the box */
+}
+/* Style the links inside the navigation bar */
+.topnav a{
+    float: left;
+    color:rgb(49,152,255);
+    text-align: center;
+    padding: 10px 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Helvetica; /* This is the font style */
+    font-weight: lighter; /* How thick the font is */
+}
+    /* Move some of the links to the right of the page */
+    .right {
+    float: right;
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: rgb(49,152,255);
+        color:white;
+    }
+
+
+.results {
+    /* background-color:rgb(49，152，255);*/
+    border: 0px solid black;
+    background: rgba(225,251,255, 0.6);
+    margin: 1rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    width:80%;
+    Display:inline-block;
+    border-radius: 1rem;/* Sets the curve around the box */
+    font-family: Helvetica;/* This is the font style */
+    font-weight: lighter; /* How thick the font is */
+}
+        
+.Results_Image img {
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    max-height: 320px;
+}
+.Results_Image {
+    float: left;
+    width: 47%;
+    /* background:rgba(99，230，250，0.6);*/
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem;
+    overflow: hidden;
+}
+.Results_Info {
+    float: right;
+    width:47%;
+    background:rgba(30,131,255,0.529);
+    border-radius: 1rem;/* Sets the curve around the box */
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.small {
+    font-size: 15px;
+}
+.CheckAvailButton {
+    float: right;
+    background-color:#ffffff;
+    font-size: larger;
+    color:rgba(30,131,255);
+    border-radius: 1rem;
+    border: 0px;
+}
+.Results_Info h2 {
+    color:white;
+}
+    

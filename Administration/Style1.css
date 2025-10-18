@@ -1,0 +1,29 @@
+.Input_Hotels {
+    background-color:white;/* background color */
+    padding: 10px;/* used to create space around an element's content */
+    text-align: center;/* Aligns things to center */
+    /* Here the width, height and padding are respected,but the two copies of the element can still sit side by side. */
+    display: inline-block;/* removed padding on the sides */
+    border-radius: 10px;/* Sets the curve around the box */
+}
+   
+
+.Input_Hotels label {
+    font-family: Helvetica; /* This is the font style */
+}
+.Input_Hotels_Input {
+        background-color: white;/* background color */
+        padding: 2px;/*2 pixels of padding */
+        border-radius: 3px;/* Sets the curve around the box */
+        border-style: solid;/* solid border */
+        border-color: rgb(212,212,212);/* color of the border */
+        color:rgb(49,152,255);/*font color */
+        border-width: 1px;/* border width is 1 pixel */
+        text-align: center;/* This is the font position */
+}
+
+.Input_Hotels_input[type="submit"]{
+    color:rgb(49,152,255);/* Font Color */
+    padding: 3px;/*3 pixels of padding */
+    border-radius: 3px;/* Sets the curve around the box */
+    }
